@@ -1,0 +1,490 @@
+/* font-family: 'Gelasio', serif;
+font-family: 'Ribeye', cursive;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif ;
+}
+
+.booking{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    background: #C9453B;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+
+/* ============ header_starting ============ */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../../img/Rectangle 31.png") no-repeat center center / cover;
+    padding-top: 35px;
+}
+
+header .header_top .navbar{
+    padding: 0px;
+    justify-content: space-between;
+}
+
+header .header_top .navbar .navbar-brand{
+    font-family: Ribeye;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header .header_top .navbar .navbar-collapse{
+    justify-content: center;
+    flex-grow: unset;
+}
+
+header .header_top .navbar .navbar-collapse .navbar-nav .nav-item{
+    margin: 0px 25px;
+}
+
+header .header_top .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+header .header_title{
+    margin-top: 200px;
+}
+
+header .header_title h1{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: Gelasio;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header .header_title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+    opacity: .6;
+    margin-bottom: 40px;
+}
+
+/* section_starting */
+
+/* location */
+
+section h2{
+    font-size: 43px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .section_title_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    opacity: .6;
+    line-height: 29px;
+}
+
+.location{
+    padding: 140px 0px;
+}
+
+.location .card{
+    margin-top: 50px;
+    border: 1px solid rgba(0,0,0, 0.08);
+    border-radius: 10px;
+}
+
+.location .card .card-body{
+    padding: 0;
+}
+
+.location .card .card-body .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: gelasio;
+    text-align: center;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 35px rgba(0,0,0, 0.08);
+}
+
+.location .card .card-body .card-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #000;
+    opacity: 0.6;
+    margin-bottom: 33px;
+}
+.offers{
+    margin-bottom: 200px;
+}
+.offers .section_title_text{
+    margin-bottom: 60px;
+}
+
+.offers .offers_carousel .carousel  .carousel-indicators{
+    bottom: -50px;
+    margin: 0px;
+}
+
+.offers .offers_carousel .carousel  .carousel-indicators button{
+    border: none;
+    background-color: rgba(201, 69, 59, 0.1);
+    border-radius: 10px;
+    height: 5px;
+    width: 5%;
+}
+
+.offers .offers_carousel .carousel  .carousel-indicators button:active,
+.offers .offers_carousel .carousel  .carousel-indicators .active
+{
+    background: #C9453B;
+}
+
+.offers .offers_carousel .carousel .carousel-control-prev{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    bottom: -58px;
+    width: auto;
+    top: unset;
+    left: 40%;
+    background-color: black;
+}
+
+.offers .offers_carousel .carousel .carousel-control-prev span{
+    background-image: unset;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.offers .offers_carousel .carousel .carousel-control-next{
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    bottom: -58px;
+    width: auto;
+    top: unset;
+    right: 40%;
+    background-color: black;
+}
+
+.offers .offers_carousel .carousel .carousel-control-next span{
+    background-image: unset;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card:first-of-type{
+    opacity: .5;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card {
+    border: none;
+    border-radius: 0;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body{
+    padding: 0px;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .cards_icons a:first-of-type{
+    color: black;
+    opacity: .6;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 50px;
+    display: inline-flex;
+    align-items: center;    
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .cards_icons a:first-of-type span{
+    color: #FC1200;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .cards_icons a:last-of-type{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .cards_icons a:last-of-type span{
+    font-size: 22px;
+    color: #FFC700;
+    margin-right: 10px;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .carousel_date{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 8px 0px;
+    opacity: .6;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .carousel_price span{
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 1;
+}
+
+.offers .offers_carousel .carousel .carousel-inner  .carousel-item .card .card-body .carousel_price{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    opacity: .6;
+}
+
+
+.news .section_title_text{
+    margin-bottom: 56px;
+}
+
+.news img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.news h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.news p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 10px;
+    color: black;
+    opacity: .6;
+}
+
+.news a{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.news .link_500{
+    font-weight: 500;
+}
+
+.news .news_mt{
+    margin: 30px 0px;
+}
+
+
+footer{
+    margin-top: 140px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: rgba(38,148,153 , 0.04);
+}
+
+footer .logo{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 6%;
+    font-family: ribeye;
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 6%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+footer .mail{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 6%;
+    color: black;
+}
+
+footer .social_icons{
+    margin-top: 20px;
+}
+
+footer .social_icons a{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C9453B;
+}
+
+footer .social_icons a:last-of-type{
+    margin: 0;
+} 
+
+footer ul li{
+    margin-bottom: 20px;
+}
+
+footer ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 40px;
+}
+
+footer input{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0,0,0, 10%);
+    border-radius: 5px;
+    background-color: rgba(38, 148, 153, 0.04);
+    margin-right: 35px;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 6%;
+}
+
+footer .booking{
+    padding: 10px 32px;
+    letter-spacing: 6%;
+}
+.fa-bars{
+    color: white !important;
+   }
+
+/* MEDIA */
+
+/* lg 992px == 1199px */
+
+@media(max-width:1199px){
+    header .header_title{
+        margin-top: 150px;
+    }
+    header .header_title h1{
+        font-size: 40px;
+    }
+    .offers .offers_carousel .carousel .carousel-inner .carousel-item .card:nth-of-type(even){
+        display: none;
+    }
+    .news h3{
+        margin-top: 10px;
+    }
+    .news p{
+        font-size: 16px;
+    }
+    .offers .offers_carousel .carousel .carousel-control-prev{
+        left: 39%;
+    }
+    .offers .offers_carousel .carousel .carousel-control-next{
+        right: 39%;
+    }
+    .news a{
+        font-size: 16px;
+    }
+    footer form{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer form input{
+        margin-right: 10px;
+        width: 100%;
+    }
+@media (max-width:992px) {
+.header_top .booking{
+margin-top: 50px;
+}
+section .loc_cent{
+    justify-content: center !important;
+}
+.offers .offers_carousel .carousel .carousel-inner .carousel-item .card:nth-child(1){
+    display: none;
+}
+.card_cent{
+    justify-content:space-around !important;
+}
+.new_col10 {
+    margin-bottom: 30px;
+}
+.offers .offers_carousel .carousel .carousel-control-prev{
+    left: 37%;
+}
+.offers .offers_carousel .carousel .carousel-control-next{
+    right: 37%;
+}
+
+}
+@media (max-width:576px){
+    
+    header .header_title p{
+        text-align: justify;
+    }
+    .offers .offers_carousel .carousel .carousel-control-prev{
+        left: 33%;
+    }
+    .offers .offers_carousel .carousel .carousel-control-next{
+        right: 33%;
+    }
+    .offers .offers_carousel .carousel .carousel-inner .carousel-item .card:nth-child(3){
+        display: none;
+    }
+}
+
+
+
+
+
+    /* .offers .offers_carousel .carousel .carousel-inner .carousel-item .card:first-of-type{
+        display: none;
+    }
+    .offers .offers_carousel .carousel .carousel-inner .carousel-item .card:last-of-type{
+        display: none;
+    } */
+}
